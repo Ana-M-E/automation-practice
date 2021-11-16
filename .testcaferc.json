@@ -1,0 +1,9 @@
+{
+	"screenshots": {
+		"takeOnFails": true,
+		"screenshotPath": "/screenshots",
+		"pathPattern": "${FIXTURE}${TEST}${DATE}_${TIME}/${TEST_ID}${RUN_ID}${FILE_INDEX}.png"
+	},
+	"skipJsErrors": true,
+	"browsers": "chrome:headless"
+}

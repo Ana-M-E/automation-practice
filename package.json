@@ -1,0 +1,15 @@
+{
+	"name": "Tests-Automation-Practice",
+	"version": "1.0.0",
+	"description": "Regression pack for Order Placement",
+	"scripts": {
+		"test-chrome-html-report": "testcafe chrome src/tests/ --reporter html:results/results_order_placement.html",
+		"test-html-report": "testcafe src/tests/ --reporter html:results/results_order_placement.html",
+		"test-chrome": "testcafe chrome src/tests/"
+	},
+	"author": "Ana Enache",
+	"dependencies": {
+		"testcafe": "^1.7.0",
+		"testcafe-reporter-html": "^1.4.6"
+	}
+}
